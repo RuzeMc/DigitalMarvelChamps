@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{E4D1D762-4984-D131-F9A8-FA9CC02D128C}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "DigiChamps",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
