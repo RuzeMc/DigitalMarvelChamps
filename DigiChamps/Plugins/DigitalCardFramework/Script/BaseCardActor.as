@@ -1,0 +1,4 @@
+class ABaseCardActor : AActor
+{
+    
+}
