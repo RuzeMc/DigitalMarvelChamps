@@ -1,5 +1,4 @@
-#
-# This file tells Git about engine files that never really belong in source control.  They are usually build products, log
+at never really belong in source control.  They are usually build products, log
 # files and intermediate files generated from a compiler or the engine runtime.
 #
 #
@@ -168,6 +167,9 @@
 
 # Exception for VS Workspace patches
 !/Engine/Extras/VisualStudioWorkspace/
+
+# Exception for prerequisites
+!/Engine/Extras/Redist/en-us/UEPrereqSetup_x64.exe
 
 # Ignore the automatically created mono symlink
 /Engine/Binaries/ThirdParty/Mono/Mac/bin/mono
