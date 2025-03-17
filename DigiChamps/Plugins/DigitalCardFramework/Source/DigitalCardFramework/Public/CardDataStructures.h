@@ -66,6 +66,7 @@ enum class ECardTraits : uint8
 	DRONE UMETA(DisplayName = "Drone"),
 	ELITE UMETA(DisplayName = "Elite"),
 	GAMMA UMETA(DisplayName = "Gamma"),
+	GENIUS, UMETA(DisplayName = "Genius")
 	HEROFORHIRE UMETA(DisplayName = "Hero for Hire"),
 	HYDRA UMETA(DisplayName = "Hydra"),
 	ITEM UMETA(DisplayName = "Item"),
@@ -92,44 +93,44 @@ enum class ECardTraits : uint8
 UENUM(BlueprintType)
 enum class ECardAspect : uint8
 {
-	BASIC = 0,
-	AGRESSION,
-	LEADERSHIP,
-	PROTECTION,
-	JUSTICE,
-	POOL,
-	HEROASPECT,
-	ENCOUNTER,
-	CAMPAIGN
+	BASIC = 0 UMETA(DisplayName = "Basic"),
+	AGGRESSION UMETA(DisplayName = "Aggression"),
+	LEADERSHIP UMETA(DisplayName = "Leadership"),
+	PROTECTION UMETA(DisplayName = "Protection"),
+	JUSTICE UMETA(DisplayName = "Justice"),
+	POOL UMETA(DisplayName = "Pool"),
+	HEROASPECT UMETA(DisplayName = "Hero"),
+	ENCOUNTER UMETA(DisplayName = "Encounter"),
+	CAMPAIGN UMETA(DisplayName = "Campaign")
 };
 
 UENUM(BlueprintType)
 enum class ECardResourceType : uint8
 {
-	WILD = 0,
-	MENTAL,
-	PHYSICAL,
-	ENERGY
+	WILD = 0 UMETA(DisplayName = "Wild"),
+	MENTAL UMETA(DisplayName = "Mental"),
+	PHYSICAL UMETA(DisplayName = "Physical"),
+	ENERGY UMETA(DisplayName = "Energy")
 };
 
 UENUM(BlueprintType)
 enum class ECardType : uint8
 {
-	HERO = 0,
-	ALLY,
-	SUPPORT,
-	UPGRADE,
-	EVENT,
-	RESOURCE,
-	VILLAIN,
-	TREACHERY,
-	MINION,
-	ATTACHMENT,
-	MAINSCHEME,
-	SIDESCHEME,
-	ENVIRONMENT,
-	OBLIGATION,
-	PLAYERSIDESCHEME
+	HERO = 0 UMETA(DisplayName = "Hero"),
+	ALLY UMETA(DisplayName = "Ally"),
+	SUPPORT UMETA(DisplayName = "Support"),
+	UPGRADE UMETA(DisplayName = "Upgrade"),
+	EVENT UMETA(DisplayName = "Event"),
+	RESOURCE UMETA(DisplayName = "Resource"),
+	VILLAIN UMETA(DisplayName = "Villain"),
+	TREACHERY UMETA(DisplayName = "Treachery"),
+	MINION UMETA(DisplayName = "Minion"),
+	ATTACHMENT UMETA(DisplayName = "Attachment"),
+	MAINSCHEME UMETA(DisplayName = "Main Scheme"),
+	SIDESCHEME UMETA(DisplayName = "Side Scheme"),
+	ENVIRONMENT UMETA(DisplayName = "Environment"),
+	OBLIGATION UMETA(DisplayName = "Obligation"),
+	PLAYERSIDESCHEME UMETA(DisplayName = "Player Side Scheme")
 };
 
 
