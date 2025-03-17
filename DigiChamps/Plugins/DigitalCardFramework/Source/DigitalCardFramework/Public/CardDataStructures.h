@@ -66,7 +66,7 @@ enum class ECardTraits : uint8
 	DRONE UMETA(DisplayName = "Drone"),
 	ELITE UMETA(DisplayName = "Elite"),
 	GAMMA UMETA(DisplayName = "Gamma"),
-	GENIUS, UMETA(DisplayName = "Genius")
+	GENIUS, UMETA(DisplayName = "Genius"),
 	HEROFORHIRE UMETA(DisplayName = "Hero for Hire"),
 	HYDRA UMETA(DisplayName = "Hydra"),
 	ITEM UMETA(DisplayName = "Item"),
